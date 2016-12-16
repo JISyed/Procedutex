@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\procedutex\elements\AbsOutMod.h" />
+    <ClInclude Include="inc\procedutex\elements\AddCombiner.h" />
+    <ClInclude Include="inc\procedutex\elements\BinarizeOutMod.h" />
+    <ClInclude Include="inc\procedutex\elements\Combiner.h" />
+    <ClInclude Include="inc\procedutex\elements\CompositeGenerator.h" />
+    <ClInclude Include="inc\procedutex\elements\ConstantGenerator.h" />
+    <ClInclude Include="inc\procedutex\elements\CustomFunctionOutMod.h" />
+    <ClInclude Include="inc\procedutex\elements\DomainDistortionInMod.h" />
+    <ClInclude Include="inc\procedutex\elements\FractalGenerator.h" />
+    <ClInclude Include="inc\procedutex\elements\GainOutMod.h" />
+    <ClInclude Include="inc\procedutex\elements\Generator.h" />
+    <ClInclude Include="inc\procedutex\elements\InputModifier.h" />
+    <ClInclude Include="inc\procedutex\elements\InvertOutMod.h" />
+    <ClInclude Include="inc\procedutex\elements\MaxCombiner.h" />
+    <ClInclude Include="inc\procedutex\elements\MinCombiner.h" />
+    <ClInclude Include="inc\procedutex\elements\MultiplyCombiner.h" />
+    <ClInclude Include="inc\procedutex\elements\OutputModifier.h" />
+    <ClInclude Include="inc\procedutex\elements\PerlinNoise.h" />
+    <ClInclude Include="inc\procedutex\elements\SingleGenerator.h" />
+    <ClInclude Include="inc\procedutex\elements\TranslateInMod.h" />
+    <ClInclude Include="inc\procedutex\math\Consts.h" />
+    <ClInclude Include="inc\procedutex\math\FloatOperations.h" />
+    <ClInclude Include="inc\procedutex\math\IntegerOperations.h" />
+    <ClInclude Include="inc\procedutex\random\ColorUtil.h" />
+    <ClInclude Include="inc\procedutex\random\ComplexGaussian.h" />
+    <ClInclude Include="inc\procedutex\random\ComplexUniform.h" />
+    <ClInclude Include="inc\procedutex\random\EngineBase.h" />
+    <ClInclude Include="inc\procedutex\random\RandomNumberEngines.h" />
+    <ClInclude Include="inc\procedutex\random\SimpleGaussian.h" />
+    <ClInclude Include="inc\procedutex\random\SimpleUniform.h" />
+    <ClInclude Include="inc\procedutex\types\Color4b.h" />
+    <ClInclude Include="inc\procedutex\types\Color4f.h" />
+    <ClInclude Include="inc\procedutex\types\Gradient.h" />
+    <ClInclude Include="inc\procedutex\types\GradientPoint.h" />
+    <ClInclude Include="inc\procedutex\types\NormalizedValue.h" />
+    <ClInclude Include="inc\procedutex\types\Rectf.h" />
+    <ClInclude Include="inc\procedutex\types\Vect2f.h" />
+    <ClInclude Include="inc\procedutex\types\Vect2ui.h" />
+    <ClInclude Include="inc\procedutex\utilities\GradientConverter.h" />
+    <ClInclude Include="inc\procedutex\utilities\GrayscaleConverter.h" />
+    <ClInclude Include="inc\procedutex\utilities\InputModifierList.h" />
+    <ClInclude Include="inc\procedutex\utilities\OutputConverter.h" />
+    <ClInclude Include="inc\procedutex\utilities\OutputModifierList.h" />
+    <ClInclude Include="inc\procedutex\utilities\SampleSpace.h" />
+    <ClInclude Include="inc\procedutex\utilities\TextureBuffer2d.h" />
+    <ClInclude Include="inc\procedutex\utilities\TextureDimensions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\elements\AbsOutMod.cpp" />
+    <ClCompile Include="src\elements\AddCombiner.cpp" />
+    <ClCompile Include="src\elements\BinarizeOutMod.cpp" />
+    <ClCompile Include="src\elements\Combiner.cpp" />
+    <ClCompile Include="src\elements\CompositeGenerator.cpp" />
+    <ClCompile Include="src\elements\ConstantGenerator.cpp" />
+    <ClCompile Include="src\elements\CustomFunctionOutMod.cpp" />
+    <ClCompile Include="src\elements\DomainDistortionInMod.cpp" />
+    <ClCompile Include="src\elements\FractalGenerator.cpp" />
+    <ClCompile Include="src\elements\GainOutMod.cpp" />
+    <ClCompile Include="src\elements\Generator.cpp" />
+    <ClCompile Include="src\elements\InputModifier.cpp" />
+    <ClCompile Include="src\elements\InvertOutMod.cpp" />
+    <ClCompile Include="src\elements\MaxCombiner.cpp" />
+    <ClCompile Include="src\elements\MinCombiner.cpp" />
+    <ClCompile Include="src\elements\MultiplyCombiner.cpp" />
+    <ClCompile Include="src\elements\OutputModifier.cpp" />
+    <ClCompile Include="src\elements\PerlinNoise.cpp" />
+    <ClCompile Include="src\elements\SingleGenerator.cpp" />
+    <ClCompile Include="src\elements\TranslateInMod.cpp" />
+    <ClCompile Include="src\math\Consts.cpp" />
+    <ClCompile Include="src\math\FloatOperations.cpp" />
+    <ClCompile Include="src\math\IntegerOperations.cpp" />
+    <ClCompile Include="src\random\ColorUtil.cpp" />
+    <ClCompile Include="src\random\ComplexGaussian.cpp" />
+    <ClCompile Include="src\random\ComplexUniform.cpp" />
+    <ClCompile Include="src\random\EngineBase.cpp" />
+    <ClCompile Include="src\random\SimpleGaussian.cpp" />
+    <ClCompile Include="src\random\SimpleUniform.cpp" />
+    <ClCompile Include="src\types\Color4b.cpp" />
+    <ClCompile Include="src\types\Color4f.cpp" />
+    <ClCompile Include="src\types\Gradient.cpp" />
+    <ClCompile Include="src\types\GradientPoint.cpp" />
+    <ClCompile Include="src\types\NormalizedValue.cpp" />
+    <ClCompile Include="src\types\Rectf.cpp" />
+    <ClCompile Include="src\types\Vect2f.cpp" />
+    <ClCompile Include="src\types\Vect2ui.cpp" />
+    <ClCompile Include="src\utilities\GradientConverter.cpp" />
+    <ClCompile Include="src\utilities\GrayscaleConverter.cpp" />
+    <ClCompile Include="src\utilities\InputModifierList.cpp" />
+    <ClCompile Include="src\utilities\OutputConverter.cpp" />
+    <ClCompile Include="src\utilities\OutputModifierList.cpp" />
+    <ClCompile Include="src\utilities\SampleSpace.cpp" />
+    <ClCompile Include="src\utilities\TextureBuffer2d.cpp" />
+    <ClCompile Include="src\utilities\TextureDimensions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ConverterSystem.cd" />
+    <None Include="GeneratorSystem.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8157A63C-FB83-4A6C-8539-531D0069A773}</ProjectGuid>
+    <RootNamespace>Procedutex</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\Intermediate\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName)_$(Configuration)Cmplr.pdb</ProgramDataBaseFileName>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>$(ProjectDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>COPY .\$(Configuration)\$(TargetFileName) /B .\lib\. /Y
+COPY $(IntDir)*.pdb /B .\lib\. /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName)_$(Configuration)Cmplr.pdb</ProgramDataBaseFileName>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>$(ProjectDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>COPY .\$(Configuration)\$(TargetFileName) /B .\lib\. /Y
+COPY $(IntDir)*.pdb /B .\lib\. /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

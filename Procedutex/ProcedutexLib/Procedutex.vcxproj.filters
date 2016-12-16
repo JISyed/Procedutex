@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Elements">
+      <UniqueIdentifier>{1964e5e3-2094-476d-83e8-f02e38267a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math">
+      <UniqueIdentifier>{02637ae1-1991-48d4-be18-c2e6e3953aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Random">
+      <UniqueIdentifier>{ccd426f7-8e1c-45a8-8368-20da2650ee12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Types">
+      <UniqueIdentifier>{56e6a75e-56a3-4074-b825-a63374dbe2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Utilities">
+      <UniqueIdentifier>{1d2e6c84-95dd-4fdc-b543-6546e29e2bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Elements\Generators">
+      <UniqueIdentifier>{a859ce01-aaad-4347-92f2-b5c91213ccbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Utilities\OutputConverters">
+      <UniqueIdentifier>{bb03a93a-476a-4893-af35-e5d51970c0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Elements\Modifiers">
+      <UniqueIdentifier>{e2d1e768-902d-4f48-b304-ab267f2b77fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Elements\Modifiers\InputModifiers">
+      <UniqueIdentifier>{cd063c73-ffba-48e0-9968-8c6ae760d757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Elements\Modifiers\OutputModifiers">
+      <UniqueIdentifier>{53864f85-f310-4389-b33f-736b267696b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Elements\Modifiers\Util">
+      <UniqueIdentifier>{0202e8a5-9112-4503-8d9c-ba6e0d128be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Elements\Combiners">
+      <UniqueIdentifier>{6b15f1b4-be7e-4dd9-8eb1-1588b2832d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{38970273-8007-4843-a80d-b77b1ae32db1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\procedutex\math\Consts.h">
+      <Filter>_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\math\FloatOperations.h">
+      <Filter>_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\math\IntegerOperations.h">
+      <Filter>_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\NormalizedValue.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\random\ComplexGaussian.h">
+      <Filter>_Random</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\random\ComplexUniform.h">
+      <Filter>_Random</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\random\SimpleGaussian.h">
+      <Filter>_Random</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\random\SimpleUniform.h">
+      <Filter>_Random</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\random\EngineBase.h">
+      <Filter>_Random</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\random\RandomNumberEngines.h">
+      <Filter>_Random</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\Color4b.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\Color4f.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\Vect2ui.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\TextureBuffer2d.h">
+      <Filter>_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\random\ColorUtil.h">
+      <Filter>_Random</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\Vect2f.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\Rectf.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\SampleSpace.h">
+      <Filter>_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\TextureDimensions.h">
+      <Filter>_Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\Generator.h">
+      <Filter>_Elements\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\SingleGenerator.h">
+      <Filter>_Elements\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\ConstantGenerator.h">
+      <Filter>_Elements\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\OutputConverter.h">
+      <Filter>_Utilities\OutputConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\GrayscaleConverter.h">
+      <Filter>_Utilities\OutputConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\PerlinNoise.h">
+      <Filter>_Elements\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\FractalGenerator.h">
+      <Filter>_Elements\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\Gradient.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\types\GradientPoint.h">
+      <Filter>_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\GradientConverter.h">
+      <Filter>_Utilities\OutputConverters</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\InputModifier.h">
+      <Filter>_Elements\Modifiers\InputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\OutputModifier.h">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\TranslateInMod.h">
+      <Filter>_Elements\Modifiers\InputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\AbsOutMod.h">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\DomainDistortionInMod.h">
+      <Filter>_Elements\Modifiers\InputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\InputModifierList.h">
+      <Filter>_Elements\Modifiers\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\utilities\OutputModifierList.h">
+      <Filter>_Elements\Modifiers\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\CustomFunctionOutMod.h">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\GainOutMod.h">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\BinarizeOutMod.h">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\InvertOutMod.h">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\Combiner.h">
+      <Filter>_Elements\Combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\AddCombiner.h">
+      <Filter>_Elements\Combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\MultiplyCombiner.h">
+      <Filter>_Elements\Combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\MaxCombiner.h">
+      <Filter>_Elements\Combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\MinCombiner.h">
+      <Filter>_Elements\Combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\procedutex\elements\CompositeGenerator.h">
+      <Filter>_Elements\Generators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\math\Consts.cpp">
+      <Filter>_Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\FloatOperations.cpp">
+      <Filter>_Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\IntegerOperations.cpp">
+      <Filter>_Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\NormalizedValue.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random\ComplexGaussian.cpp">
+      <Filter>_Random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random\ComplexUniform.cpp">
+      <Filter>_Random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random\SimpleGaussian.cpp">
+      <Filter>_Random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random\SimpleUniform.cpp">
+      <Filter>_Random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random\EngineBase.cpp">
+      <Filter>_Random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\Color4b.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\Color4f.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\Vect2ui.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\TextureBuffer2d.cpp">
+      <Filter>_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random\ColorUtil.cpp">
+      <Filter>_Random</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\Vect2f.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\Rectf.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\SampleSpace.cpp">
+      <Filter>_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\TextureDimensions.cpp">
+      <Filter>_Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\Generator.cpp">
+      <Filter>_Elements\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\SingleGenerator.cpp">
+      <Filter>_Elements\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\ConstantGenerator.cpp">
+      <Filter>_Elements\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\OutputConverter.cpp">
+      <Filter>_Utilities\OutputConverters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\GrayscaleConverter.cpp">
+      <Filter>_Utilities\OutputConverters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\PerlinNoise.cpp">
+      <Filter>_Elements\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\FractalGenerator.cpp">
+      <Filter>_Elements\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\Gradient.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\types\GradientPoint.cpp">
+      <Filter>_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\GradientConverter.cpp">
+      <Filter>_Utilities\OutputConverters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\InputModifier.cpp">
+      <Filter>_Elements\Modifiers\InputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\OutputModifier.cpp">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\TranslateInMod.cpp">
+      <Filter>_Elements\Modifiers\InputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\AbsOutMod.cpp">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\DomainDistortionInMod.cpp">
+      <Filter>_Elements\Modifiers\InputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\InputModifierList.cpp">
+      <Filter>_Elements\Modifiers\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\OutputModifierList.cpp">
+      <Filter>_Elements\Modifiers\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\CustomFunctionOutMod.cpp">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\GainOutMod.cpp">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\BinarizeOutMod.cpp">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\InvertOutMod.cpp">
+      <Filter>_Elements\Modifiers\OutputModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\Combiner.cpp">
+      <Filter>_Elements\Combiners</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\AddCombiner.cpp">
+      <Filter>_Elements\Combiners</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\MultiplyCombiner.cpp">
+      <Filter>_Elements\Combiners</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\MaxCombiner.cpp">
+      <Filter>_Elements\Combiners</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\MinCombiner.cpp">
+      <Filter>_Elements\Combiners</Filter>
+    </ClCompile>
+    <ClCompile Include="src\elements\CompositeGenerator.cpp">
+      <Filter>_Elements\Generators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GeneratorSystem.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="ConverterSystem.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>

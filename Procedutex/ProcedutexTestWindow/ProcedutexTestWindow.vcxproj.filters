@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GL">
+      <UniqueIdentifier>{d029c487-367e-456e-8656-ffffffaffe59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL\GLFW3">
+      <UniqueIdentifier>{bb8ef1ed-6520-442a-b128-2fa5a2dc47a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL\GLEW">
+      <UniqueIdentifier>{e0792dc8-c1b2-4c42-aca0-2cd4ce983ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicsSubsystem">
+      <UniqueIdentifier>{00640be0-209c-47c2-95ae-8f3e86976e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4527ec99-cf08-475d-8277-7cf01e30c3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RuntimeSubsystem">
+      <UniqueIdentifier>{457594e0-71da-47bf-bddd-68a9763f2e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NoiseMakerSubsystem">
+      <UniqueIdentifier>{7ed581c0-a39d-467e-b46f-b9438f554f60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\GraphicsSubsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files\RuntimeSubsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\GraphicsSubsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\GraphicsSubsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\RuntimeSubsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AppTexturesSetter.cpp">
+      <Filter>Source Files\RuntimeSubsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseMakerProc.cpp">
+      <Filter>Source Files\NoiseMakerSubsystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\ProcedutexLib\lib\Procedutex_Debug.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\ProcedutexLib\lib\Procedutex.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="glfw3\glfw3.lib">
+      <Filter>GL\GLFW3</Filter>
+    </Library>
+    <Library Include="glfw3\glfw3_Debug.lib">
+      <Filter>GL\GLFW3</Filter>
+    </Library>
+    <Library Include="GL\glew32s.lib">
+      <Filter>GL\GLEW</Filter>
+    </Library>
+    <Library Include="GL\glew32sd.lib">
+      <Filter>GL\GLEW</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glfw3\glfw_config.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\glfw3.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\glfw3native.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\internal.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\wgl_context.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\win32_platform.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\win32_tls.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw3\winmm_joystick.h">
+      <Filter>GL\GLFW3</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glew.h">
+      <Filter>GL\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glxew.h">
+      <Filter>GL\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\wglew.h">
+      <Filter>GL\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\GraphicsSubsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="openglHeaders.h">
+      <Filter>Source Files\GraphicsSubsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Source Files\RuntimeSubsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\GraphicsSubsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\GraphicsSubsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AppTexturesSetter.h">
+      <Filter>Source Files\RuntimeSubsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseMakerProc.h">
+      <Filter>Source Files\NoiseMakerSubsystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\basic.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\basic.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\appIcon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

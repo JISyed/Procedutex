@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Holds-&gt;">
+    <Position X="14.031" Y="3.125" Height="0.344" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Holds-&gt;">
+    <Position X="20.523" Y="2.104" Height="0.344" Width="0.7" />
+  </Comment>
+  <Class Name="procedutex::abstract::Generator">
+    <Position X="9" Y="2" Width="2.25" />
+    <Members>
+      <Method Name="~Generator" Hidden="true" />
+      <Method Name="Generator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QEAAACAIAAAQQAIQAAAAAEAAAAIIAAKIAAACAgAEAAQ=</HashCode>
+      <FileName>inc\procedutex\elements\Generator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="inputModifiers" />
+      <Field Name="outputModifiers" />
+      <Field Name="samplingSpace" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="procedutex::modutil::InputModifierList" Collapsed="true">
+    <Position X="12.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAgAAAAQAAACAAABAAAAAAAAgAAAAAAABAAiI=</HashCode>
+      <FileName>inc\procedutex\utilities\InputModifierList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::modutil::OutputModifierList" Collapsed="true">
+    <Position X="18.75" Y="2" Width="1.75" />
+    <NestedTypes>
+      <Class Name="procedutex::modutil::OutputModifierList::Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>inc\procedutex\utilities\OutputModifierList.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="procedutex::modutil::OutputModifierList::Iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>inc\procedutex\utilities\OutputModifierList.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAMCAAAgAAAAAAAACAAABAAAAAAAAgAAAAAAQBAAgI=</HashCode>
+      <FileName>inc\procedutex\utilities\OutputModifierList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::util::SampleSpace">
+    <Position X="5.5" Y="2.25" Width="2.25" />
+    <Members>
+      <Method Name="~SampleSpace" Hidden="true" />
+      <Method Name="GetDimensions" Hidden="true" />
+      <Method Name="GetHeight" Hidden="true" />
+      <Method Name="GetOrigin" Hidden="true" />
+      <Method Name="GetWidth" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SampleSpace" Hidden="true" />
+      <Method Name="SetDimensions" Hidden="true" />
+      <Method Name="SetHeight" Hidden="true" />
+      <Method Name="SetOrigin" Hidden="true" />
+      <Method Name="SetWidth" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAIA4AAAABAAAQAAAAAAAAgAsAAAIQ=</HashCode>
+      <FileName>inc\procedutex\utilities\SampleSpace.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dimensions" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="procedutex::inmods::abstract::InputModifier">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="~InputModifier" Hidden="true" />
+      <Method Name="InputModifier" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\InputModifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::outmods::abstract::OutputModifier">
+    <Position X="21.25" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~OutputModifier" Hidden="true" />
+      <Method Name="OutputModifier" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\OutputModifier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::inmods::TranslateInMod">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAIAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\TranslateInMod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::inmods::DomainDistortionInMod" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\domaindistortioninmod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::outmods::AbsOutMod" Collapsed="true">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\absoutmod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::outmods::BinarizeOutMod">
+    <Position X="21.25" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~BinarizeOutMod" Hidden="true" />
+      <Method Name="BinarizeOutMod" Hidden="true" />
+      <Method Name="Modify" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\BinarizeOutMod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::outmods::CustomFunctionOutMod" Collapsed="true">
+    <Position X="24.75" Y="4" Width="2" />
+    <Members>
+      <Method Name="~CustomFunctionOutMod" Hidden="true" />
+      <Method Name="CustomFunctionOutMod" Hidden="true" />
+      <Method Name="Modify" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAQAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\CustomFunctionOutMod.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="customLambda" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="procedutex::outmods::GainOutMod">
+    <Position X="23" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~GainOutMod" Hidden="true" />
+      <Method Name="GainOutMod" Hidden="true" />
+      <Method Name="Modify" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\GainOutMod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::outmods::InvertOutMod" Collapsed="true">
+    <Position X="17.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\InvertOutMod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::abstract::SingleGenerator" Collapsed="true">
+    <Position X="12.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAABAEIAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\SingleGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::PerlinNoise" Collapsed="true">
+    <Position X="13.5" Y="10" Width="1.5" />
+    <Members>
+      <Method Name="~PerlinNoise" Hidden="true" />
+      <Method Name="CustomGetAt" Hidden="true" />
+      <Method Name="OnSeedChange" Hidden="true" />
+      <Method Name="PerlinNoise" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAABAAAAEAgAAAAAAAAAEAAAgAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\PerlinNoise.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::ConstantGenerator">
+    <Position X="11.5" Y="10" Width="1.75" />
+    <Members>
+      <Method Name="~ConstantGenerator" Hidden="true" />
+      <Method Name="ConstantGenerator" Hidden="true" />
+      <Method Name="CustomGetAt" Hidden="true" />
+      <Method Name="GetAtTexel" Hidden="true" />
+      <Method Name="GetConstantValue" Hidden="true" />
+      <Method Name="OnSeedChange" Hidden="true" />
+      <Method Name="SetConstantValue" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAACgAAAAAAAAAEAAAAAAgAAAAAAAIgAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\ConstantGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::FractalGenerator">
+    <Position X="9" Y="7.75" Width="1.75" />
+    <Members>
+      <Method Name="~FractalGenerator" Hidden="true" />
+      <Method Name="CustomGetAt" Hidden="true" />
+      <Method Name="FractalGenerator" Hidden="true" />
+      <Method Name="GetAtTexel" Hidden="true" />
+      <Method Name="OnSeedChange" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="procedutex::abstract::Generator" FixedToPoint="true">
+      <Path>
+        <Point X="10.125" Y="5.863" />
+        <Point X="10.125" Y="7.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAEAAAAEAAEAAEAUCAQAAAAAgAgAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\FractalGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::CompositeGenerator" Collapsed="true">
+    <Position X="5.5" Y="8.25" Width="2.75" />
+    <Members>
+      <Method Name="CompositeGenerator" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="firstGenerator" Type="procedutex::abstract::Generator" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="8.5" />
+        <Point X="4.732" Y="8.5" />
+        <Point X="4.732" Y="5.25" />
+        <Point X="9" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="secondGenerator" Type="procedutex::abstract::Generator" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="8.375" />
+        <Point X="4.942" Y="8.375" />
+        <Point X="4.942" Y="5.625" />
+        <Point X="9" Y="5.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAAAAAAAAAEIgQCAAAAAAAAAgAgAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\CompositeGenerator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="firstGenerator" />
+      <Field Name="secondGenerator" />
+      <Field Name="outputCombiner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="procedutex::combiners::abstract::Combiner">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <Members>
+      <Method Name="~Combiner" Hidden="true" />
+      <Method Name="Combiner" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\Combiner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::combiners::AddCombiner" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\AddCombiner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::combiners::MaxCombiner" Collapsed="true">
+    <Position X="5.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\MaxCombiner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::combiners::MinCombiner" Collapsed="true">
+    <Position X="4" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAABAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\MinCombiner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::combiners::MultiplyCombiner" Collapsed="true">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAAAABAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\MultiplyCombiner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="procedutex::Rectf">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="~Rectf" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Rectf" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAABAQAQAAAAAAAAACAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>inc\procedutex\types\Rectf.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="origin" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="procedutex::Vect2f">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="~Vect2f" Hidden="true" />
+      <Method Name="GetScaled" Hidden="true" />
+      <Method Name="operator*" Hidden="true" />
+      <Method Name="operator*=" Hidden="true" />
+      <Method Name="operator+" Hidden="true" />
+      <Method Name="operator+=" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="Vect2f" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABACAAAAAAQAAAAACAAAAIABgAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\types\Vect2f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="procedutex::outmods::CustomFunction" Collapsed="true">
+    <Position X="28.25" Y="4.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\elements\CustomFunctionOutMod.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

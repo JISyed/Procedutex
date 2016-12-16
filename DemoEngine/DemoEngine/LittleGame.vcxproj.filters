@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Libraries">
+      <UniqueIdentifier>{29d70d1d-fcd1-4491-9aa9-f3184a4be105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW">
+      <UniqueIdentifier>{d1e99522-f419-4132-b372-6218cfbf1410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW\lib">
+      <UniqueIdentifier>{a836f45b-11c9-4492-9c60-f8dd52985ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW\include">
+      <UniqueIdentifier>{49489779-46e9-4d54-b45e-93e51ba56c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6">
+      <UniqueIdentifier>{073ae4dc-977d-4832-b923-136da6fc1fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6\lib">
+      <UniqueIdentifier>{0cc57226-561b-483b-9687-954c2d7bc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_GLFW\include\GL">
+      <UniqueIdentifier>{eeb82a3b-bd34-4089-9957-4b88a3e8af92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6\include">
+      <UniqueIdentifier>{e2682268-f8f3-45ec-90c3-091dbd8e854f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_SB6\include\GL">
+      <UniqueIdentifier>{16e516ee-b0bf-401c-96ac-fa3c9c0e2d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_MathEngine">
+      <UniqueIdentifier>{7b93056e-51de-4918-aeab-e4b63aa93e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_MathEngine\include">
+      <UniqueIdentifier>{e7310551-33de-4617-a804-01a19a901158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_MathEngine\lib">
+      <UniqueIdentifier>{c265a469-836b-4cc8-aefc-38ec4dfdc2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_File">
+      <UniqueIdentifier>{48874a06-b2fc-447e-990f-453f928b3b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_File\include">
+      <UniqueIdentifier>{64db79a6-ad6b-46ea-8c79-55b1e26255c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_File\lib">
+      <UniqueIdentifier>{bda2a8dc-1bbd-451a-8a6a-7c5d91f54293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Shaders">
+      <UniqueIdentifier>{c689ce01-e64e-4815-a5c4-fcba5473ef11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source">
+      <UniqueIdentifier>{d7b90243-bcd0-4026-8264-83aac53ff3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\EngineFoundation">
+      <UniqueIdentifier>{aeffb183-270c-41d3-9973-ebc721d44228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\EngineUtilities">
+      <UniqueIdentifier>{46495875-fa04-4462-9188-c33e9ee119c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GameObjectSystem">
+      <UniqueIdentifier>{44443720-c7a7-4544-8de4-9928f9f171b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GameObjectSystem\CustomBehaviors">
+      <UniqueIdentifier>{cbe5b33d-9faa-4451-b6ac-782b29fee199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem">
+      <UniqueIdentifier>{8d47e395-67fe-42e7-8fb6-f0ab1a80c132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\ShaderSystem">
+      <UniqueIdentifier>{ce03c91f-f945-4edb-b30f-31422f36c1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\MeshSystem">
+      <UniqueIdentifier>{784a3205-0098-4a69-a233-dadc1668fa66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\Renderers">
+      <UniqueIdentifier>{97a3b1d0-4f80-4e2e-8298-0061125b6e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\CameraSystem">
+      <UniqueIdentifier>{24a49144-a606-4fcd-b398-53a2da3869fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\MaterialSystem">
+      <UniqueIdentifier>{2d353802-1e55-4a9d-bda3-72b9266a4d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\MaterialSystem\PolygonMode">
+      <UniqueIdentifier>{133c27c0-1384-4694-8373-eb764a291aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\Uniforms">
+      <UniqueIdentifier>{d5bca132-4d41-4c0d-bd30-5361d76d5593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\TextureSystem">
+      <UniqueIdentifier>{518dfccc-475b-447f-8e45-cc1728972b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\GraphicsSystem\Uniforms\UniformData">
+      <UniqueIdentifier>{6c7ef058-f25d-4496-8641-fcba1468aa1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\AbstractDataTypes">
+      <UniqueIdentifier>{be74cd2d-385a-4a4f-858a-e05a6d3dcce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\AbstractDataTypes\List">
+      <UniqueIdentifier>{28a0a2cb-46bd-43d2-989d-857a4cb5a52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\InputSystem">
+      <UniqueIdentifier>{1c1c73cb-687c-4157-8660-836bf288d40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\PCS">
+      <UniqueIdentifier>{403a31aa-9d01-45f3-a577-31dddc957e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex">
+      <UniqueIdentifier>{f6aaa94d-e632-4e61-887f-7e00ed235a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc">
+      <UniqueIdentifier>{628a4728-d8d2-49f1-a7ea-ce462d885613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\lib">
+      <UniqueIdentifier>{eea5dce0-0c10-402e-bb39-87fb8f38b74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\elements">
+      <UniqueIdentifier>{857f0596-7178-4ea9-9ff3-5d0742f87429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\math">
+      <UniqueIdentifier>{b9e6f9ad-3ca1-43f4-be6c-0b7180d3172f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\random">
+      <UniqueIdentifier>{46944a9d-b671-470b-bec3-d0f6d3cc0ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\types">
+      <UniqueIdentifier>{803626a7-9268-4f50-b572-8200f5467d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\utilities">
+      <UniqueIdentifier>{6b4eb880-dc30-49c5-bec9-d6979e540ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\elements\generators">
+      <UniqueIdentifier>{0ac3127a-a9bc-4569-8901-393881ac53a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\elements\outmods">
+      <UniqueIdentifier>{85c3087c-047d-4de0-ad94-eaf300dbf1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\elements\inmods">
+      <UniqueIdentifier>{d67e5ab0-1fff-4ee6-9abd-e05902664b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\elements\combiners">
+      <UniqueIdentifier>{5d3a3785-3cd1-4fae-8f73-be77fabb8ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libraries\_Procedutex\inc\utilities\converters">
+      <UniqueIdentifier>{e97771d9-e3ce-45ee-affe-389208d2a0ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\extern_libs\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libraries\_GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libraries\_SB6\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\MathEngine\lib\MathEngine_Debug.lib">
+      <Filter>_Libraries\_MathEngine\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\FileLibrary\lib\FileLibrary_Debug.lib">
+      <Filter>_Libraries\_File\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\FileLibrary\lib\FileLibrary_Release.lib">
+      <Filter>_Libraries\_File\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\GLFW\lib\GLFW_Release.lib">
+      <Filter>_Libraries\_GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\MathEngine\lib\MathEngine_Release.lib">
+      <Filter>_Libraries\_MathEngine\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\SB6\lib\sb6_Release.lib">
+      <Filter>_Libraries\_SB6\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\Procedutex\lib\Procedutex.lib">
+      <Filter>_Libraries\_Procedutex\lib</Filter>
+    </Library>
+    <Library Include="..\extern_libs\Procedutex\lib\Procedutex_Debug.lib">
+      <Filter>_Libraries\_Procedutex\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\EngineFoundation\Main.cpp">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineFoundation\Game.cpp">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineFoundation\Engine.cpp">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\GameObject.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\GameObjectBehavior.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\OrbitBehavior.cpp">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\SpinBehavior.cpp">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineUtilities\Time.cpp">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Shader.cpp">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineUtilities\IdGenerator.cpp">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ErrorShaderHelper.cpp">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Mesh.cpp">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MeshRenderer.cpp">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Camera.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Material.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\PolygonMode.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\PolygonModeFullFace.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\PolygonModeWireframe.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ShaderUniformHandle.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MaterialUniform.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataMatrix.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataVect.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformData.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataFloat.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataInt.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\UniformDataTextureUnit.cpp">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\GenericList.cpp">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\GenericListNode.cpp">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\GenericListIterator.cpp">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\Texture.cpp">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MaterialTextureLink.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputSystem\Keyboard.cpp">
+      <Filter>_Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputSystem\Mouse.cpp">
+      <Filter>_Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineUtilities\Screen.cpp">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\Transform.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\CameraTransformAdapter.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSNode.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSTree.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSTreeForwardIterator.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PCS\PCSTreeReverseIterator.cpp">
+      <Filter>_Source\PCS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\CameraManager.cpp">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ShaderRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\TextureRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MeshRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\MaterialRegistry.cpp">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectSystem\GameObjectManager.cpp">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractDataTypes\Color.cpp">
+      <Filter>_Source\AbstractDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\SpheroidGenerator.cpp">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsSystem\ImageBuffer.cpp">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\extern_libs\GLFW\include\GL\glfw.h">
+      <Filter>_Libraries\_GLFW\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\arcball.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\object.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6ext.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6ktx.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\sb6mfile.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\shader.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\vmath.h">
+      <Filter>_Libraries\_SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\gl3w.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glcorearb.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glext.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\glxext.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\SB6\include\GL\wglext.h">
+      <Filter>_Libraries\_SB6\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Align16.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Constants.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Enum.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\MathEngine.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Matrix.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Util.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\MathEngine\include\Vect.h">
+      <Filter>_Libraries\_MathEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineFoundation\Game.h">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineFoundation\Engine.h">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\GameObject.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\GameObjectBehavior.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\OrbitBehavior.h">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\SpinBehavior.h">
+      <Filter>_Source\GameObjectSystem\CustomBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineUtilities\Time.h">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\FileLibrary\include\File.h">
+      <Filter>_Libraries\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Shader.h">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineUtilities\IdGenerator.h">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ErrorShaderHelper.h">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Mesh.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MeshRenderer.h">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\IRenderable.h">
+      <Filter>_Source\GraphicsSystem\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Camera.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Material.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\PolygonMode.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\PolygonModeFullFace.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\PolygonModeWireframe.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem\PolygonMode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ShaderUniformHandle.h">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformNameHelper.h">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\enumTextureUnit.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MaterialUniform.h">
+      <Filter>_Source\GraphicsSystem\Uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformData.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataMatrix.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataVect.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataFloat.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataInt.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\UniformDataTextureUnit.h">
+      <Filter>_Source\GraphicsSystem\Uniforms\UniformData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\GenericList.h">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\GenericListNode.h">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\GenericListIterator.h">
+      <Filter>_Source\AbstractDataTypes\List</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\Texture.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MaterialTextureLink.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\Keyboard.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\Mouse.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\enumKey.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputSystem\enumMouseButton.h">
+      <Filter>_Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineUtilities\Screen.h">
+      <Filter>_Source\EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\Transform.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\CameraTransformAdapter.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSNode.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTree.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTreeForwardIterator.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTreeIterator.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PCS\PCSTreeReverseIterator.h">
+      <Filter>_Source\PCS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\CameraManager.h">
+      <Filter>_Source\GraphicsSystem\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EngineFoundation\ResourseRegistry.h">
+      <Filter>_Source\EngineFoundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ShaderRegistry.h">
+      <Filter>_Source\GraphicsSystem\ShaderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\TextureRegistry.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MeshRegistry.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\MaterialRegistry.h">
+      <Filter>_Source\GraphicsSystem\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectSystem\GameObjectManager.h">
+      <Filter>_Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractDataTypes\Color.h">
+      <Filter>_Source\AbstractDataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\SpheroidGenerator.h">
+      <Filter>_Source\GraphicsSystem\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsSystem\ImageBuffer.h">
+      <Filter>_Source\GraphicsSystem\TextureSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\math\Consts.h">
+      <Filter>_Libraries\_Procedutex\inc\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\math\FloatOperations.h">
+      <Filter>_Libraries\_Procedutex\inc\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\math\IntegerOperations.h">
+      <Filter>_Libraries\_Procedutex\inc\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\NormalizedValue.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\random\ComplexGaussian.h">
+      <Filter>_Libraries\_Procedutex\inc\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\random\ComplexUniform.h">
+      <Filter>_Libraries\_Procedutex\inc\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\random\EngineBase.h">
+      <Filter>_Libraries\_Procedutex\inc\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\random\RandomNumberEngines.h">
+      <Filter>_Libraries\_Procedutex\inc\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\random\SimpleGaussian.h">
+      <Filter>_Libraries\_Procedutex\inc\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\random\SimpleUniform.h">
+      <Filter>_Libraries\_Procedutex\inc\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\random\ColorUtil.h">
+      <Filter>_Libraries\_Procedutex\inc\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\Color4b.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\Color4f.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\Vect2ui.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\TextureBuffer2d.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\Rectf.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\Vect2f.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\SampleSpace.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\TextureDimensions.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\CompositeGenerator.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\ConstantGenerator.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\FractalGenerator.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\Generator.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\PerlinNoise.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\SingleGenerator.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\AbsOutMod.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\outmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\CustomFunctionOutMod.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\outmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\BinarizeOutMod.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\outmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\InvertOutMod.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\outmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\OutputModifier.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\outmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\GainOutMod.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\outmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\DomainDistortionInMod.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\inmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\InputModifier.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\inmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\TranslateInMod.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\inmods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\MultiplyCombiner.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\Combiner.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\MaxCombiner.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\MinCombiner.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\elements\AddCombiner.h">
+      <Filter>_Libraries\_Procedutex\inc\elements\combiners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\Gradient.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\types\GradientPoint.h">
+      <Filter>_Libraries\_Procedutex\inc\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\InputModifierList.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\OutputModifierList.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\GradientConverter.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities\converters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\GrayscaleConverter.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities\converters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern_libs\Procedutex\include\procedutex\utilities\OutputConverter.h">
+      <Filter>_Libraries\_Procedutex\inc\utilities\converters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\vertRainbow.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\vertRainbow.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="src\GraphicsSystem\GraphicsSystemDiagram.cd">
+      <Filter>_Source\GraphicsSystem</Filter>
+    </None>
+    <None Include="res\shaders\constantColor.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\constantColor.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\constantTexture.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\constantTexture.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\diffuseTexturePointLight.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\diffuseTexturePointLight.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\blinnPhongColor.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\blinnPhongColor.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureDiffuse.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureDiffuse.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureSpecular.fs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="res\shaders\normalTextureSpecular.vs.glsl">
+      <Filter>_Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+</Project>

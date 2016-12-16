@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Hold-&gt;">
+    <Position X="13.292" Y="4.938" Height="0.354" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Ordered Container">
+    <Position X="11.333" Y="4.438" Height="0.323" Width="1.263" />
+  </Comment>
+  <Comment CommentText="Ordered by the NormalizedValue">
+    <Position X="14.167" Y="5.854" Height="0.583" Width="1.158" />
+  </Comment>
+  <Class Name="procedutex::util::abstract::OutputConverter">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~OutputConverter" Hidden="true" />
+      <Method Name="OutputConverter" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQEAAAAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\utilities\OutputConverter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::util::GrayscaleConverter" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.75" />
+    <Members>
+      <Method Name="~GrayscaleConverter" Hidden="true" />
+      <Method Name="ConvertValue" Hidden="true" />
+      <Method Name="GrayscaleConverter" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAI=</HashCode>
+      <FileName>inc\procedutex\utilities\GrayscaleConverter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::util::GradientConverter" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.75" />
+    <Members>
+      <Method Name="~GradientConverter" Hidden="true" />
+      <Method Name="ConvertValue" Hidden="true" />
+      <Method Name="GradientConverter" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIgAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\utilities\GradientConverter.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="colorGradient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="procedutex::Gradient">
+    <Position X="7.5" Y="4.25" Width="1.75" />
+    <Members>
+      <Method Name="~Gradient" Hidden="true" />
+      <Method Name="Gradient" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAAEAAAABAAAAAAAAAIAAAAAIAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>inc\procedutex\types\Gradient.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gradientPoints" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::set&lt;_Kty, _Pr, _Alloc&gt;" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::_Mybase" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::const_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::key_compare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::const_reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::allocator_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::value_compare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::const_reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::difference_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::_Myt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::key_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::_Pairib" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::size_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::set&lt;_Kty, _Pr, _Alloc&gt;::const_pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 12.0\vc\include\set</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="procedutex::NormalizedValue">
+    <Position X="16.5" Y="5.25" Width="2" />
+    <Members>
+      <Method Name="~NormalizedValue" Hidden="true" />
+      <Method Name="Approx" Hidden="true" />
+      <Field Name="BEGINNING" Hidden="true" />
+      <Field Name="END" Hidden="true" />
+      <Field Name="MIDDLE" Hidden="true" />
+      <Method Name="NormalizedValue" Hidden="true" />
+      <Method Name="operator-" Hidden="true" />
+      <Method Name="operator float" Hidden="true" />
+      <Method Name="operator!=" Hidden="true" />
+      <Method Name="operator*" Hidden="true" />
+      <Method Name="operator*=" Hidden="true" />
+      <Method Name="operator+" Hidden="true" />
+      <Method Name="operator+=" Hidden="true" />
+      <Method Name="operator&lt;" Hidden="true" />
+      <Method Name="operator&lt;=" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="operator-=" Hidden="true" />
+      <Method Name="operator==" Hidden="true" />
+      <Method Name="operator&gt;" Hidden="true" />
+      <Method Name="operator&gt;=" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAUAAgAaAATCAAAAggAAAAAg=</HashCode>
+      <FileName>inc\procedutex\types\NormalizedValue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="procedutex::GradientPoint">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="~GradientPoint" Hidden="true" />
+      <Method Name="GradientPoint" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="operator==" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAIQAAAAAAAACAAAAgAAAAAEA=</HashCode>
+      <FileName>inc\procedutex\types\GradientPoint.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="color" />
+      <Field Name="position" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="procedutex::Color4f">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="~Color4f" Hidden="true" />
+      <Field Name="Black" Hidden="true" />
+      <Field Name="Blue" Hidden="true" />
+      <Method Name="Color4f" Hidden="true" />
+      <Method Name="ConvertToByteRepresentation" Hidden="true" />
+      <Method Name="GetAlpha" Hidden="true" />
+      <Method Name="GetBlue" Hidden="true" />
+      <Method Name="GetGreen" Hidden="true" />
+      <Method Name="GetRed" Hidden="true" />
+      <Field Name="Green" Hidden="true" />
+      <Method Name="Lerp" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="Red" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetAlpha" Hidden="true" />
+      <Method Name="SetBlue" Hidden="true" />
+      <Method Name="SetGreen" Hidden="true" />
+      <Method Name="SetRed" Hidden="true" />
+      <Field Name="White" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ERAeggEAQAAABgAAAEIAAAACBAAAAAAAgAAwABAAAiA=</HashCode>
+      <FileName>inc\procedutex\types\Color4f.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

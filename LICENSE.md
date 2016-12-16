@@ -1,3 +1,5 @@
+**NOTICE:** *Windowing and rendering software used to test Procedutex required 3rd party libraries that are not covered in this license. These include SB6 library by Graham Sellers, GLEW library by Nigel Stewart, and GLFW library by Camilla Berglund. They each have their own respective licenses.*
+
 MIT License
 
 Copyright (c) 2016 Jibran Syed

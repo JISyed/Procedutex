@@ -7,6 +7,7 @@ namespace procedutex
 	// Collection of all Output Modifier Elements
 	namespace outmods
 	{
+		// An OutputModifier that inverts the output value (flips negative sign)
 		class InvertOutMod : public abstract::OutputModifier
 		{
 		public:

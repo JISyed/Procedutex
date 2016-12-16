@@ -5,6 +5,7 @@
 // Jibran's Prodecural Texture Generation Library
 namespace procedutex
 {
+	// A Generator that combines the values of two other Generators using a Combiner
 	class CompositeGenerator : public abstract::Generator
 	{
 	public:

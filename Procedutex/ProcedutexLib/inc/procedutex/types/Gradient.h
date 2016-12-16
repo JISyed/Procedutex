@@ -5,7 +5,7 @@
 // Jibran's Prodecural Texture Generation Library
 namespace procedutex
 {
-	// Represents a range of position-dependent colors, facilitating ombre
+	// Represents a range of position-dependent colors, facilitating ombre (color blending)
 	class Gradient
 	{
 	public:

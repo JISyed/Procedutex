@@ -7,7 +7,7 @@ namespace procedutex
 	// Collection of all Output Modifier Elements
 	namespace outmods
 	{
-		// Controls the gain of the noise output value
+		// Controls the gain (normalized multiplier) of the noise output value
 		class GainOutMod : public abstract::OutputModifier
 		{
 		public:

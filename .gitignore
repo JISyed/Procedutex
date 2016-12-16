@@ -3,6 +3,7 @@
 
 #Include Libs
 !*.lib
+!*.pdb
 
 # User-specific files
 *.suo
